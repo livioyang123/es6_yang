@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <title>Tris Game</title>
 </head>
 <body>
+    <div class="container">
+        <div id="board" class="board">
+            <!-- La griglia di gioco viene creata dinamicamente con JavaScript -->
+        </div>
+        <div id="winner-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="winner-message"></p>
+                <p id="time-used"></p>
+            </div>
+        </div>
+    </div>
     <p>ciao</p>
+    <script src="js.js" ></script>
 </body>
 </html>
